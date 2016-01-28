@@ -35,8 +35,9 @@
       }
       
       body {
+        background-color: #000;
         color: #000;
-        font-size: 16px;
+        font-size: 14px;
         direction: rtl;
         line-height: 1.8;
         font-family: Gandom,Tahoma,"DejaVu Sans",helvetica,arial,freesans,sans-serif;
@@ -44,13 +45,17 @@
 
       header, .sample, footer {
         margin: auto;
-        padding: 100px 50px;
+        padding: 50px 50px;
       }
 
       header {
         text-align: center;
         background-color: #eee;
-        color: #444;
+        color: #222;
+      }
+      
+      header h1 {
+        color: #333;
       }
       
       header .get {
@@ -80,21 +85,38 @@
 
       .sample.sec-test {
         background-color: #f9f9f9;
-        color: #51575B;
+        color: #333;
+        box-shadow: 0 0 12px #e0e0e0;
       }
 
+
+      .sample.sec-test .embed {
+        background-color: #f5f5f5;
+        border: 1px solid #d5d5d5;
+        border-radius: 5px;
+        color: #005412;
+        float: right;
+        margin: 10px;
+        max-width: 500px;
+        padding: 10px;
+      }
+
+      .sample.sec-test .embed a {
+        color: #9c0000;
+      }
+    
       .sample.sec-test.second {
         background-color: #f5f8fa;
-        color: #222;
+        color: #292f32;
+        border-top: 1px solid #eee;
       }
 
       .sample.sec-test.second h2 {
-	font-weight: normal;
+
       }
 
       .sample.sec-test p {
-        font-size: 16px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
       }
 
       .sample.sec-test a { color: #0b6db3; }
@@ -111,9 +133,9 @@
       }
       
       .sample.sec3 {
-        background-color: #7F8B4C;
+        background-color: #25456c;
         color: #fff;
-        font-size: 14px;
+        font-size: 12px;
       }
       
       .sample.sec3 a {
@@ -121,36 +143,50 @@
       }
             
       footer {
-        background-color: #3d432a;
-        color: #eee;
+        background-color: #374E55;
+        background-size: cover;
+        color: #fff;
         text-align: center;
+
       }
       
       footer a {
-        color: #D7DD77;
-        text-decoration: underline;
+        color: #FEAF3A;
       }
 
+      .clear { clear: both; }
       @media all and (max-width: 480px){
         header, .sample, footer {
           padding: 50px 30px;
         }
+        .sample.sec-test .embed {
+           margin: -50px -30px 10px;
+           border-radius: 0;
+           border-top: none;
+        }
       }
+      
+      @media all and (max-width: 900px) and (min-width: 481px) {
+        .sample.sec-test .embed {
+           margin: 0 auto 10px;
+           float: none;
+        }
+      }      
     </style>
   </head>
   
   <body>
     <header>
       <h1>قلم فارسی گندم</h1>
-      <div class="description">فونتی آزاد برای همه</div>
+      <div class="description">این فونت آزاد است.</div>
       <div class="get">
         <a href="https://github.com/rastikerdar/gandom-font/releases/download/v0.3/gandom-font-v0.3.zip" class="download">دریافت (دانلود)</a>
         <a href="https://github.com/rastikerdar/gandom-font" class="github">GitHub</a>
       </div>
       <div class="info">
-        <div>آخرین نسخه: 0.3</div>
-        <div>مجوز: SIL Open Font License 1.1</div>
-        <div>این فونت  در مراحل اولیه توسعه می باشد که در صورت مشاهده ایراد یا داشتن هر گونه پیشنهادی تقاضا می گردد در میان بگذارید و در توسعه قلم مشارکت فرمایید. هم اکنون می توانید از قلم استفاده نمایید اما در آینده نسخه های جدید منتشر خواهد شد. از پایگاه های دانلود فایل نیز تقاضا می گردد تا پیش از انتشار نسخه اصلی آن را بر روی سرورهای خود برای دانلود قرار ندهند.</div>
+        <div class="version">آخرین نسخه: 0.3</div>
+        <div class="notice">این فونت مراحل توسعه پیش از انتشار اصلی را می گذراند. هم اکنون می توانید از آن استفاده نمایید اما از پایگاه های دانلود فایل تقاضا می گردد تا پیش از انتشار نسخه اصلی آن را بر روی سرورهای خود برای دانلود قرار ندهند.</div>
+        <div class="license">مجوز: SIL Open Font License 1.1</div>
         <div class="other-fonts">سایر قلم‌های آزاد:
           <a href="http://rastikerdar.github.io/vazir-font/" target="_blank">وزیر</a>،
           <a href="http://rastikerdar.github.io/tanha-font/" target="_blank">تنها</a>،
@@ -158,25 +194,32 @@
           <a href="http://rastikerdar.github.io/parastoo-font/" target="_blank">پرستو</a>،
           <a href="http://rastikerdar.github.io/samim-font/" target="_blank">صمیم</a>
         </div>
+        <div>برای مقایسه قلم های فارسی به <a href="http://rastikerdar.github.io/compare-fonts/" target="_blank">این صفحه </a> مراجعه نمایید.</div>
       </div>
     </header>
 
-    <section class="sample sec-test second">
-      <p>
-برخلاف سایر غلات، گندم را می‌توان از طرق مختلف از جمله در تهیه نان، بیسکویت، شیرینی، کیک، اسپاگتی، ماکارونی و ... مورد مصرف قرار داد. از گندم در صنایع کاغذ سازی، چسب سازی و همچنین در تهیه پودرهای لباسشویی هم استفاده می‌گردد. از سبوس و کاه آن نیز به عنوان خوراک دام استفاده می‌کنند. انواع مختلف گندم برای مصارف مختلف مورد استفاده قرار می‌گیرند. مثلا گندم‌های نرم بهاره یا پاییزه برای مصرف در صنایع بیسکویت سازی، شیرینی‌پزی و کیک‌پزی مناسبند. در حالی که از گندم‌های سخت پاییزه و بهاره در نانوایی استفاده بیشتری دارند.
-      </p>
-      <p>از <a href="http://daneshnameh.roshd.ir/mavara/mavara-index.php?page=%DA%AF%D9%86%D8%AF%D9%85&SSOReturnPage=Check&Rand=0">گندم</a></p>
-    </section>
 
-    <section class="sample sec3">
-      <h2>طراحی</h2>
+    <section class="sample sec-test second">
+        <section class="embed">
+          <p>یَا مُقَلِّبَ الْقُلُوبِ وَ الْأَبْصَارِ یَا مُدَبِّرَ اللَّیْلِ وَ النَّهَارِ یَا مُحَوِّلَ الْحَوْلِ وَ الْأَحْوَالِ حَوِّلْ حَالَنَا إِلَی أَحْسَنِ الْحَالِ
+          </p>
+          <p>ای تغییر دهنده دلها و دیده‏ها * ای مدبر شب و روز * ای گرداننده سال و حالت ها * بگردان حال ما را به نیکوترین حال
+          </p>
+          <p><a href="http://jafarit.khschool.ir/articles/viewArticle.asp?ID=77969">منبع</a></p>
+        </section>
+          
+      <h2>متن آزمایشی</h2>
       <p>
-این فونت بر مبنای قلم‌ <a href="http://rastikerdar.github.io/samim-font/" target="_blank">صمیم</a> ساخته شده که خود باز طراحی فونت <a href="http://dejavu-fonts.org">DejaVu 2.35</a> می‌باشد. توضیحات مربوط به فونت اصلی و مجوز آن را می‌توانید در تارنمای پروژه فونت DejaVu مشاهده نمایید.
-</p>
+برخلاف سایر غلات، گندم را می‌توان از طرق مختلف از جمله در تهیه نان، بیسکویت، شیرینی، کیک، اسپاگتی، ماکارونی و ... مورد مصرف قرار داد. از گندم در صنایع کاغذ سازی، چسب سازی و همچنین در تهیه پودرهای لباسشویی هم استفاده می‌گردد. از سبوس و کاه آن نیز به عنوان خوراک دام استفاده می‌کنند. انواع مختلف گندم برای مصارف مختلف مورد استفاده قرار می‌گیرند. مثلا گندم‌های نرم بهاره یا پاییزه برای مصرف در صنایع بیسکویت سازی، شیرینی‌پزی و کیک‌پزی مناسبند. در حالی که از گندم‌های سخت پاییزه و بهاره در نانوایی استفاده بیشتری دارند. از <a href="http://daneshnameh.roshd.ir/mavara/mavara-index.php?page=%DA%AF%D9%86%D8%AF%D9%85&SSOReturnPage=Check&Rand=0">گندم</a>
+      </p>
+<div class="clear"></div>
     </section>
         
     <footer>
-      صفحه وبلاگ برای ثبت دیدگاه پیرامون قلم گندم:
+      <p>
+این فونت بر مبنای قلم‌ <a href="http://rastikerdar.github.io/samim-font/" target="_blank">صمیم</a> ساخته شده که خود باز طراحی فونت <a href="http://dejavu-fonts.org">DejaVu 2.35</a> می‌باشد. توضیحات مربوط به فونت اصلی و مجوز آن را می‌توانید در تارنمای پروژه فونت DejaVu مشاهده نمایید.</p>
+<br>
+         صفحه وبلاگ برای ثبت دیدگاه پیرامون قلم گندم:
       <a href="http://rastikerdar.blog.ir/1394/09/04/%D9%82%D9%84%D9%85-%D9%81%D9%88%D9%86%D8%AA-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%DA%AF%D9%86%D8%AF%D9%85" target="_blank">rastikerdar.blog.ir</a>
       <br>
       توسط صابر راستی کردار
