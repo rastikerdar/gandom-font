@@ -1,0 +1,13 @@
+StartChar: afii57534
+Encoding: 1749 1749 82
+Width: 868
+VWidth: 2286
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-10" 323.928 1169.5 basechar 0
+AnchorPoint: "Anchor-7" 334.558 -223.958 basechar 0
+LayerCount: 2
+Fore
+Refer: 39 1607 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uni06D5.fina
+EndChar

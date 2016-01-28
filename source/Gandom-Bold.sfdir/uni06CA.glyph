@@ -1,0 +1,13 @@
+StartChar: uni06CA
+Encoding: 1738 1738 288
+Width: 938
+VWidth: 2295
+Flags: W
+AnchorPoint: "Anchor-7" 547.286 -667.014 basechar 0
+AnchorPoint: "Anchor-10" 488.206 1350.24 basechar 0
+LayerCount: 2
+Fore
+Refer: 262 -1 S 1.06 0 0 1.06 286.506 954.996 2
+Refer: 40 1608 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uni06CA.fina
+EndChar

@@ -1,0 +1,20 @@
+StartChar: uni0627
+Encoding: 1575 1575 12
+Width: 415
+VWidth: 2267
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-10" 201.033 1580.03 basechar 0
+AnchorPoint: "Anchor-7" 208.453 -282.144 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+266.716 1458 m 2,0,-1
+ 284.18 1467.04 l 1,1,-1
+ 284.18 191 l 2,2,3
+ 284.18 63.396 284.18 63.396 186.167 -0.583984 c 1,4,-1
+ 136.373 1104.39 l 2,5,6
+ 123.772 1384.01 123.772 1384.01 266.716 1458 c 2,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFE8E
+EndChar

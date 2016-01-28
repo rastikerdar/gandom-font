@@ -1,0 +1,16 @@
+StartChar: uni062E
+Encoding: 1582 1582 19
+Width: 1248
+VWidth: 2291
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-10" 594.74 1497.56 basechar 0
+AnchorPoint: "Anchor-7" 503.98 -804.582 basechar 0
+LayerCount: 2
+Fore
+Refer: 18 1581 N 1 0 0 1 0 0 2
+Refer: 261 -1 N 1.1342 0 0 1.1342 594.475 1164.72 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEA6
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFEA8
+Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFEA7
+EndChar

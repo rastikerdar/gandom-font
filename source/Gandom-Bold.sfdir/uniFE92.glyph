@@ -1,0 +1,13 @@
+StartChar: uniFE92
+Encoding: 65170 65170 154
+Width: 643
+VWidth: 2306
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-10" 239.748 1089.54 basechar 0
+AnchorPoint: "Anchor-7" 216.428 -666.896 basechar 0
+LayerCount: 2
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+Refer: 261 -1 S 1.1342 0 0 1.1342 121.823 -433.165 2
+EndChar

@@ -1,0 +1,17 @@
+StartChar: uniFEF8
+Encoding: 65272 65272 256
+Width: 1285
+VWidth: 2257
+GlyphClass: 3
+Flags: W
+AnchorPoint: "Anchor-9" 911.05 1564.96 baselig 0
+AnchorPoint: "Anchor-6" 941.79 -271.485 baselig 0
+AnchorPoint: "Anchor-6" 182.278 -280.195 baselig 1
+AnchorPoint: "Anchor-9" 174.988 1983.54 baselig 1
+LayerCount: 2
+Fore
+Refer: 260 65276 N 1 0 0 1 0 0 2
+Refer: 52 1620 N 1.06 0 0 1.06 -405.722 37.4845 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Arabic lookup 17 subtable" uniFEE0 uniFE84
+EndChar
