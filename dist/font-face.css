@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Gandom;
+  src: url('Gandom.eot');
+  src: url('Gandom.eot?#iefix') format('embedded-opentype'),
+       url('Gandom.woff') format('woff'),
+       url('Gandom.ttf') format('truetype');
+  font-weight: normal;
+}
+
