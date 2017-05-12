@@ -31,7 +31,7 @@
 ```
 
 ## Install
-####Arch Linux
+#### Arch Linux
 
 Arch user's could use [gandom-fonts](https://aur.archlinux.org/packages/gandom-fonts/) package from [AUR](https://aur.archlinux.org/) repository to install gandom font. Use your favourite [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) like pacaur or yaourt for installing package:
 
