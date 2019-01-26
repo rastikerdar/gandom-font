@@ -1,14 +1,14 @@
-<h1 id="gandom-font">Gandom Font</h1>
-<p>A Persian (Farsi) Font</p>
-<p dir="rtl">فونت (قلم) فارسی گندم</p>
-<p dir="rtl"><a href="http://rastikerdar.github.io/gandom-font/">نمایش فونت</a></p>
-<p dir="rtl">با تشکر از برنامه <a href="https://fontforge.github.io">FontForge</a></p>
-<p dir="rtl">بر مبنای فونت <a href="http://rastikerdar.github.io/samim-font/" dir="rtl">صمیم</a></p>
-<h2 id="-" dir="rtl">طریقه استفاده در صفحات وب:</h2>
-<div lang="fa" dir="rtl">
-کد زیر را در قسمت style یا فایل css وارد نمایید:
-</div>
+# Gandom-Font
+A Persian (Farsi) Font  
+فونت (قلم) فارسی گندم  
+[نمایش فونت - صفحه رسمی پروژه](https://rastikerdar.github.io/gandom-font/)  
+[صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot](https://github.com/rastikerdar/gandom-font/releases)  
+با تشکر از برنامه [FontForge](https://fontforge.github.io)  
+بر مبنای فونت [صمیم](https://rastikerdar.github.io/samim-font)  
+نسخه های «بدون حروف لاتین» و «تمام ارقام فارسی» درون بسته فشرده موجود می‌باشد.  
 
+## طریقه استفاده در صفحات وب:
+<p lang="fa" dir="rtl">کد زیر را در قسمت style یا فایل css وارد نمایید:</p>
 
 ```css
 @font-face {
@@ -19,22 +19,16 @@
        url('Gandom.ttf') format('truetype');
   font-weight: normal;
 }
-
-@font-face {
-  font-family: Gandom;
-  src: url('Gandom-Bold.eot');
-  src: url('Gandom-Bold.eot?#iefix') format('embedded-opentype'),
-       url('Gandom-Bold.woff') format('woff'),
-       url('Gandom-Bold.ttf') format('truetype');
-  font-weight: bold;
-}
 ```
 
 ## Install
-####Arch Linux
+#### Arch Linux
 
 Arch user's could use [gandom-fonts](https://aur.archlinux.org/packages/gandom-fonts/) package from [AUR](https://aur.archlinux.org/) repository to install gandom font. Use your favourite [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) like pacaur or yaourt for installing package:
 
 ```shell
 pacaur -S gandom-fonts
 ```
+
+## License
+2015 Saber Rastikerdar ([@rastikerdar](https://github.com/rastikerdar)). See the `LICENSE` file.
