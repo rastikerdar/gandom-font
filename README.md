@@ -30,5 +30,27 @@ Arch user's could use [gandom-fonts](https://aur.archlinux.org/packages/gandom-f
 pacaur -S gandom-fonts
 ```
 
+
+#### Linux
+gnu/inux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install gandom font.
+
+ubuntu users must install this dependensies too:
+```
+sudo apt install openssl libssl-dev
+````
+
+##### install kateb
+```
+sudo cpan kateb
+```
+and
+```
+kateb install gandom
+```
+or
+```
+kateb update gandom
+```
+
 ## License
 2015 Saber Rastikerdar ([@rastikerdar](https://github.com/rastikerdar)). See the `LICENSE` file.
