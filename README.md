@@ -42,13 +42,9 @@ sudo apt install openssl libssl-dev
 ##### install kateb
 ```
 sudo cpan kateb
-```
-and
-```
+
 kateb install gandom
-```
 or
-```
 kateb update gandom
 ```
 
