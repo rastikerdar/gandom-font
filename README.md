@@ -1,5 +1,8 @@
 # Gandom-Font
 A Persian (Farsi) Font  
+
+# توسعه این پروژه متوقف و بایگانی شده است. این موضوع شامل تمامی ابعاد پروژه از طراحی گرافته تا رفع اشکال می‌شود. قسمت ایشوهای مخزن همچنان باز است.
+
 فونت (قلم) فارسی گندم  
 [نمایش فونت - صفحه رسمی پروژه](https://rastikerdar.github.io/gandom-font/)  
 [صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot](https://github.com/rastikerdar/gandom-font/releases)  
